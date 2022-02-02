@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+
+.navigation {
+    color: #395596;
+    padding-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    font font-size: .8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+nav li a:link {
+    color: #F5D9D3;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: #E27F6C;
+}
+
+nav li a:hover {
+    color: #FCA595;
+}
+
+nav li a:active {
+    color: #1E3D83;
+}
+
+.hero-headline {
+  text-align: center;
+  padding-top: 110px;
+}
+
+
+.hero {
+  height: 70vh;
+  background-image: url("https://assets.codepen.io/4988478/hero-image.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+
+.columns_2 {
+  padding: 0 20px;
+}
+
+.columns_2:last-of-type {
+    margin-right: 0;
+}
+
+
+h1 {
+  font-family: 'Lobster';
+  color: #F5D9D3;
+}
+
+h2 {
+  font-family: 'Lora';
+  color: #FCA595;
+}
+
+body, html, p{
+  color: #1E3D83;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Lato';
+  font-weight: 300;
+  line-height: 1.8em;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+background-image: url("https://assets.codepen.io/4988478/parallax1.jpg");
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url("https://assets.codepen.io/4988478/parallax2.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://assets.codepen.io/4988478/parallax3.jpg");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("https://assets.codepen.io/4988478/paralax4.png");
+  min-height: 400px;
+}
+
+.footer {
+  height: 20vh;
+  background-color: #395596;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background: #f4f4f4;
+  color: #666;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width; 100%
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
